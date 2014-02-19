@@ -1,0 +1,86 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2013-08-28 00:05:20 --- CRITICAL: Kohana_Exception [ 0 ]: Method find() cannot be called on loaded objects ~ MODPATH\orm\classes\Kohana\ORM.php [ 963 ] in C:\xampp\htdocs\application\classes\Model\assortment.php:58
+2013-08-28 00:05:20 --- DEBUG: #0 C:\xampp\htdocs\application\classes\Model\assortment.php(58): Kohana_ORM->find()
+#1 C:\xampp\htdocs\modules\orm\classes\Kohana\ORM.php(600): Model_Assortment->get('id')
+#2 C:\xampp\htdocs\application\classes\Model\assortment.php(14): Kohana_ORM->__get('id')
+#3 C:\xampp\htdocs\application\classes\Controller\Ajax.php(145): Model_Assortment->get_assortment('UAB')
+#4 C:\xampp\htdocs\system\classes\Kohana\Controller.php(84): Controller_Ajax->action_companies()
+#5 [internal function]: Kohana_Controller->execute()
+#6 C:\xampp\htdocs\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Ajax))
+#7 C:\xampp\htdocs\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#8 C:\xampp\htdocs\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#9 C:\xampp\htdocs\index.php(118): Kohana_Request->execute()
+#10 {main} in C:\xampp\htdocs\application\classes\Model\assortment.php:58
+2013-08-28 00:05:27 --- CRITICAL: Kohana_Exception [ 0 ]: Method find() cannot be called on loaded objects ~ MODPATH\orm\classes\Kohana\ORM.php [ 963 ] in C:\xampp\htdocs\application\classes\Model\assortment.php:58
+2013-08-28 00:05:27 --- DEBUG: #0 C:\xampp\htdocs\application\classes\Model\assortment.php(58): Kohana_ORM->find()
+#1 C:\xampp\htdocs\modules\orm\classes\Kohana\ORM.php(600): Model_Assortment->get('id')
+#2 C:\xampp\htdocs\application\classes\Model\assortment.php(14): Kohana_ORM->__get('id')
+#3 C:\xampp\htdocs\application\classes\Controller\Ajax.php(145): Model_Assortment->get_assortment('UAB')
+#4 C:\xampp\htdocs\system\classes\Kohana\Controller.php(84): Controller_Ajax->action_companies()
+#5 [internal function]: Kohana_Controller->execute()
+#6 C:\xampp\htdocs\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Ajax))
+#7 C:\xampp\htdocs\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#8 C:\xampp\htdocs\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#9 C:\xampp\htdocs\index.php(118): Kohana_Request->execute()
+#10 {main} in C:\xampp\htdocs\application\classes\Model\assortment.php:58
+2013-08-28 00:05:31 --- CRITICAL: Kohana_Exception [ 0 ]: Method find() cannot be called on loaded objects ~ MODPATH\orm\classes\Kohana\ORM.php [ 963 ] in C:\xampp\htdocs\application\classes\Model\assortment.php:58
+2013-08-28 00:05:31 --- DEBUG: #0 C:\xampp\htdocs\application\classes\Model\assortment.php(58): Kohana_ORM->find()
+#1 C:\xampp\htdocs\modules\orm\classes\Kohana\ORM.php(600): Model_Assortment->get('id')
+#2 C:\xampp\htdocs\application\classes\Model\assortment.php(14): Kohana_ORM->__get('id')
+#3 C:\xampp\htdocs\application\classes\Controller\Ajax.php(145): Model_Assortment->get_assortment('UAB')
+#4 C:\xampp\htdocs\system\classes\Kohana\Controller.php(84): Controller_Ajax->action_companies()
+#5 [internal function]: Kohana_Controller->execute()
+#6 C:\xampp\htdocs\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Ajax))
+#7 C:\xampp\htdocs\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#8 C:\xampp\htdocs\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#9 C:\xampp\htdocs\index.php(118): Kohana_Request->execute()
+#10 {main} in C:\xampp\htdocs\application\classes\Model\assortment.php:58
+2013-08-28 00:05:33 --- CRITICAL: Kohana_Exception [ 0 ]: Method find() cannot be called on loaded objects ~ MODPATH\orm\classes\Kohana\ORM.php [ 963 ] in C:\xampp\htdocs\application\classes\Model\assortment.php:58
+2013-08-28 00:05:33 --- DEBUG: #0 C:\xampp\htdocs\application\classes\Model\assortment.php(58): Kohana_ORM->find()
+#1 C:\xampp\htdocs\modules\orm\classes\Kohana\ORM.php(600): Model_Assortment->get('id')
+#2 C:\xampp\htdocs\application\classes\Model\assortment.php(14): Kohana_ORM->__get('id')
+#3 C:\xampp\htdocs\application\classes\Controller\Ajax.php(145): Model_Assortment->get_assortment('UAB')
+#4 C:\xampp\htdocs\system\classes\Kohana\Controller.php(84): Controller_Ajax->action_companies()
+#5 [internal function]: Kohana_Controller->execute()
+#6 C:\xampp\htdocs\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Ajax))
+#7 C:\xampp\htdocs\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#8 C:\xampp\htdocs\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#9 C:\xampp\htdocs\index.php(118): Kohana_Request->execute()
+#10 {main} in C:\xampp\htdocs\application\classes\Model\assortment.php:58
+2013-08-28 00:05:38 --- CRITICAL: Kohana_Exception [ 0 ]: Method find() cannot be called on loaded objects ~ MODPATH\orm\classes\Kohana\ORM.php [ 963 ] in C:\xampp\htdocs\application\classes\Model\assortment.php:58
+2013-08-28 00:05:38 --- DEBUG: #0 C:\xampp\htdocs\application\classes\Model\assortment.php(58): Kohana_ORM->find()
+#1 C:\xampp\htdocs\modules\orm\classes\Kohana\ORM.php(600): Model_Assortment->get('id')
+#2 C:\xampp\htdocs\application\classes\Model\assortment.php(14): Kohana_ORM->__get('id')
+#3 C:\xampp\htdocs\application\classes\Controller\Ajax.php(145): Model_Assortment->get_assortment('UAB')
+#4 C:\xampp\htdocs\system\classes\Kohana\Controller.php(84): Controller_Ajax->action_companies()
+#5 [internal function]: Kohana_Controller->execute()
+#6 C:\xampp\htdocs\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Ajax))
+#7 C:\xampp\htdocs\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#8 C:\xampp\htdocs\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#9 C:\xampp\htdocs\index.php(118): Kohana_Request->execute()
+#10 {main} in C:\xampp\htdocs\application\classes\Model\assortment.php:58
+2013-08-28 00:05:51 --- CRITICAL: Kohana_Exception [ 0 ]: Method find() cannot be called on loaded objects ~ MODPATH\orm\classes\Kohana\ORM.php [ 963 ] in C:\xampp\htdocs\application\classes\Model\assortment.php:58
+2013-08-28 00:05:51 --- DEBUG: #0 C:\xampp\htdocs\application\classes\Model\assortment.php(58): Kohana_ORM->find()
+#1 C:\xampp\htdocs\modules\orm\classes\Kohana\ORM.php(600): Model_Assortment->get('id')
+#2 C:\xampp\htdocs\application\classes\Model\assortment.php(14): Kohana_ORM->__get('id')
+#3 C:\xampp\htdocs\application\classes\Controller\Ajax.php(145): Model_Assortment->get_assortment('UAB')
+#4 C:\xampp\htdocs\system\classes\Kohana\Controller.php(84): Controller_Ajax->action_companies()
+#5 [internal function]: Kohana_Controller->execute()
+#6 C:\xampp\htdocs\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Ajax))
+#7 C:\xampp\htdocs\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#8 C:\xampp\htdocs\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#9 C:\xampp\htdocs\index.php(118): Kohana_Request->execute()
+#10 {main} in C:\xampp\htdocs\application\classes\Model\assortment.php:58
+2013-08-28 00:07:32 --- CRITICAL: Kohana_Exception [ 0 ]: Method find() cannot be called on loaded objects ~ MODPATH\orm\classes\Kohana\ORM.php [ 963 ] in C:\xampp\htdocs\application\classes\Model\assortment.php:58
+2013-08-28 00:07:32 --- DEBUG: #0 C:\xampp\htdocs\application\classes\Model\assortment.php(58): Kohana_ORM->find()
+#1 C:\xampp\htdocs\modules\orm\classes\Kohana\ORM.php(600): Model_Assortment->get('id')
+#2 C:\xampp\htdocs\application\classes\Model\assortment.php(14): Kohana_ORM->__get('id')
+#3 C:\xampp\htdocs\application\classes\Controller\Ajax.php(145): Model_Assortment->get_assortment('UAB')
+#4 C:\xampp\htdocs\system\classes\Kohana\Controller.php(84): Controller_Ajax->action_companies()
+#5 [internal function]: Kohana_Controller->execute()
+#6 C:\xampp\htdocs\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Ajax))
+#7 C:\xampp\htdocs\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#8 C:\xampp\htdocs\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#9 C:\xampp\htdocs\index.php(118): Kohana_Request->execute()
+#10 {main} in C:\xampp\htdocs\application\classes\Model\assortment.php:58

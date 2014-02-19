@@ -1,0 +1,45 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2013-10-28 14:44:18 --- CRITICAL: Database_Exception [ 2 ]: mysql_connect(): Access denied for user 'elgooglt_elgoog'@'localhost' (using password: YES) ~ MODPATH\database\classes\Kohana\Database\MySQL.php [ 67 ] in C:\xampp\htdocs\test\modules\database\classes\Kohana\Database\MySQL.php:171
+2013-10-28 14:44:18 --- DEBUG: #0 C:\xampp\htdocs\test\modules\database\classes\Kohana\Database\MySQL.php(171): Kohana_Database_MySQL->connect()
+#1 C:\xampp\htdocs\test\modules\database\classes\Kohana\Database\MySQL.php(359): Kohana_Database_MySQL->query(1, 'SHOW FULL COLUM...', false)
+#2 C:\xampp\htdocs\test\modules\orm\classes\Kohana\ORM.php(1668): Kohana_Database_MySQL->list_columns('points')
+#3 C:\xampp\htdocs\test\modules\orm\classes\Kohana\ORM.php(444): Kohana_ORM->list_columns()
+#4 C:\xampp\htdocs\test\modules\orm\classes\Kohana\ORM.php(389): Kohana_ORM->reload_columns()
+#5 C:\xampp\htdocs\test\modules\orm\classes\Kohana\ORM.php(254): Kohana_ORM->_initialize()
+#6 C:\xampp\htdocs\test\modules\orm\classes\Kohana\ORM.php(46): Kohana_ORM->__construct(NULL)
+#7 C:\xampp\htdocs\test\application\classes\Controller\Manage.php(14): Kohana_ORM::factory('points')
+#8 C:\xampp\htdocs\test\system\classes\Kohana\Controller.php(84): Controller_Manage->action_index()
+#9 [internal function]: Kohana_Controller->execute()
+#10 C:\xampp\htdocs\test\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Manage))
+#11 C:\xampp\htdocs\test\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#12 C:\xampp\htdocs\test\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#13 C:\xampp\htdocs\test\index.php(118): Kohana_Request->execute()
+#14 {main} in C:\xampp\htdocs\test\modules\database\classes\Kohana\Database\MySQL.php:171
+2013-10-28 17:05:23 --- CRITICAL: ErrorException [ 8 ]: Use of undefined constant done - assumed 'done' ~ APPPATH\classes\Controller\Inspections.php [ 23 ] in C:\xampp\htdocs\test\application\classes\Controller\Inspections.php:23
+2013-10-28 17:05:23 --- DEBUG: #0 C:\xampp\htdocs\test\application\classes\Controller\Inspections.php(23): Kohana_Core::error_handler(8, 'Use of undefine...', 'C:\xampp\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\test\system\classes\Kohana\Controller.php(84): Controller_Inspections->action_check()
+#2 [internal function]: Kohana_Controller->execute()
+#3 C:\xampp\htdocs\test\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Inspections))
+#4 C:\xampp\htdocs\test\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#5 C:\xampp\htdocs\test\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#6 C:\xampp\htdocs\test\index.php(118): Kohana_Request->execute()
+#7 {main} in C:\xampp\htdocs\test\application\classes\Controller\Inspections.php:23
+2013-10-28 17:06:06 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: point ~ APPPATH\views\core\inspection\confirm.php [ 9 ] in C:\xampp\htdocs\test\application\views\core\inspection\confirm.php:9
+2013-10-28 17:06:06 --- DEBUG: #0 C:\xampp\htdocs\test\application\views\core\inspection\confirm.php(9): Kohana_Core::error_handler(8, 'Undefined varia...', 'C:\xampp\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\test\system\classes\Kohana\View.php(61): include('C:\xampp\htdocs...')
+#2 C:\xampp\htdocs\test\system\classes\Kohana\View.php(348): Kohana_View::capture('C:\xampp\htdocs...', Array)
+#3 C:\xampp\htdocs\test\system\classes\Kohana\View.php(228): Kohana_View->render()
+#4 C:\xampp\htdocs\test\application\views\layout\mobile\index.php(13): Kohana_View->__toString()
+#5 C:\xampp\htdocs\test\system\classes\Kohana\View.php(61): include('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\test\system\classes\Kohana\View.php(348): Kohana_View::capture('C:\xampp\htdocs...', Array)
+#7 C:\xampp\htdocs\test\system\classes\Kohana\View.php(228): Kohana_View->render()
+#8 C:\xampp\htdocs\test\system\classes\Kohana\Response.php(160): Kohana_View->__toString()
+#9 C:\xampp\htdocs\test\application\classes\Controller\Inspections.php(72): Kohana_Response->body(Object(View))
+#10 C:\xampp\htdocs\test\system\classes\Kohana\Controller.php(84): Controller_Inspections->action_check()
+#11 [internal function]: Kohana_Controller->execute()
+#12 C:\xampp\htdocs\test\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Inspections))
+#13 C:\xampp\htdocs\test\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#14 C:\xampp\htdocs\test\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#15 C:\xampp\htdocs\test\index.php(118): Kohana_Request->execute()
+#16 {main} in C:\xampp\htdocs\test\application\views\core\inspection\confirm.php:9
