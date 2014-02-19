@@ -64,7 +64,7 @@ class Controller_Admin extends Controller {
 	
 	public function action_git()
 	{
-	
+		//komentaras
 	}
 
 	public function action_assortment()
