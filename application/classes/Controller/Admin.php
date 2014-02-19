@@ -61,6 +61,11 @@ class Controller_Admin extends Controller {
 		$this->response->body($main);
 
 	}
+	
+	public function action_git()
+	{
+	
+	}
 
 	public function action_assortment()
 	{
